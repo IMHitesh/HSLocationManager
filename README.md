@@ -1,6 +1,15 @@
 # HSLocationManager
 
-*Note: Main advantage of thid framework is app never kill by system untill your location tracking is stopped.*
+**Advantage:**
+
+ - OS will never kill our app if the location manager is currently running.
+
+ - Give periodically location update when it required.
+
+ - Customizable location accuracy and time period.
+
+ - Low memory consumption(Singleton class)
+
 
 Location manager that allows to get background location updates every n seconds with desired location accuracy.
 
@@ -51,9 +60,6 @@ You can able to see location log by using
 
     HSLogger.logger.exportLogFile()
     
-    
-    Example
-
 # See an example app HSLocationManager in the repository
 
 Note, if you test on a stimulater edit scheme and set default location.
