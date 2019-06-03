@@ -15,7 +15,6 @@ Location manager that allows to get background location updates every n seconds 
 
 Default time to retrive location is 30 sec and accuracy is 200. 
 
-    //Constant
     static let timeInternal = 30
     static let accuracy = 200
 
@@ -61,3 +60,12 @@ You can able to see location log by using
 # See an example app HSLocationManager in the repository
 
 Note, if you test on a stimulater edit scheme and set default location.
+
+
+# Raise issue if you are found or ask your queries or concern anytime:
+
+Stack overflow: https://stackoverflow.com/users/5036586/imhitesh-surani
+
+LinkedIn: https://www.linkedin.com/in/hiteshsurani/
+
+Email: hiteshsurani314@gmail.com
