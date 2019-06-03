@@ -20,19 +20,19 @@ Default time to retrive location is 30 sec and accuracy is 200.
     static let accuracy = 200
 
 # Usage
-1. Configure Xcode project
+Configure Xcode project
 
-In target Capabilities enable Background Modes and check Location updates
+ - In target Capabilities enable Background Modes and check Location updates
 
-In Info.plist add 
+ - In Info.plist add 
 
-  Privacy - Location Always and When In Use Usage Description
+    Privacy - Location Always and When In Use Usage Description
 
-  Privacy - Location Always Usage Description
+    Privacy - Location Always Usage Description
 
-  Privacy - Location When In Use Usage Description
+    Privacy - Location When In Use Usage Description
 
-key and value that will specify the reason for your app to access the user’s location information at all times.
+ - key and value that will specify the reason for your app to access the user’s location information at all times.
 
 
 Now, Add location folder into your project.
@@ -49,9 +49,9 @@ Now, Add location folder into your project.
     
 **This method is called in every 30 sec if location is available with specified accuracy(static let timeInternal = 30)**
 
-        func scheduledLocationManager(_ manager: APScheduledLocationManager, didUpdateLocations locations: [CLLocation]) {
+    func scheduledLocationManager(_ manager: APScheduledLocationManager, didUpdateLocations locations: [CLLocation]) {
 
-        }
+    }
 
 # Other:    
 You can able to see location log by using 
