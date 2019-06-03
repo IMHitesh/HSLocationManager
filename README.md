@@ -47,7 +47,7 @@ Now, Add location folder into your project.
 
     HSLocationTracking.shared().startLocationTracking()
     
-# This method is called in every 30 sec if location is available with specified accuracy(static let timeInternal = 30)  
+**This method is called in every 30 sec if location is available with specified accuracy(static let timeInternal = 30)**
 
         func scheduledLocationManager(_ manager: APScheduledLocationManager, didUpdateLocations locations: [CLLocation]) {
 
