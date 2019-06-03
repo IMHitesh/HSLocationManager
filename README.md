@@ -1,19 +1,17 @@
 # HSLocationManager
 
+Location manager that allows to get background location updates every n seconds with desired location accuracy.
+
 **Advantage:**
 
  - OS will never kill our app if the location manager is currently running.
 
- - Give periodically location update when it required.
+ - Give periodically location update when it required(range is between 2 - 170 seconds (limited by max allowed background task time))
 
  - Customizable location accuracy and time period.
 
  - Low memory consumption(Singleton class)
 
-
-Location manager that allows to get background location updates every n seconds with desired location accuracy.
-
-n - range is between 2 - 170 seconds (limited by max allowed background task time)
 
 Default time to retrive location is 30 sec and accuracy is 200. 
 
