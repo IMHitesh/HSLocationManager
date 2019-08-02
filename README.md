@@ -48,8 +48,7 @@ Now, Add location folder into your project.
     
 **This method is called in every 30 sec if location is available with specified accuracy(static let timeInternal = 30)**
 
-    func scheduledLocationManager(_ manager: APScheduledLocationManager, didUpdateLocations locations: [CLLocation]) {
-
+    func scheduledLocationManager(_ manager: HSLocationManager, didUpdateLocations locations: [CLLocation]) {
     }
 
 # Other:    
