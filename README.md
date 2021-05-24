@@ -34,13 +34,7 @@ Configure Xcode project
  - key and value that will specify the reason for your app to access the user’s location information at all times.
 
 
-Now, Add location folder into your project.
-
-# Start Location tracking:
-
-    HSLocationTracking.shared().stopLocationTracking()
-    
-    
+Now, Add location folder into your project.    
     
 # Start Location tracking:
 
